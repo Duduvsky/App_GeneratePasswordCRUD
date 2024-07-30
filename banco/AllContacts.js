@@ -47,7 +47,7 @@ export function AllContacts(){
     };
 
     return (
-        <View style={{ flex: 1, width: "80%"}}>
+        <View style={{ flex: 1.5, width: "80%"}}>
             {/* <Button title="List" onPress={() => getAll()} /> */}
             <TouchableOpacity style={styles.button} onPress={() => getAll()} >
                 <Text style={styles.buttonText}>List All</Text>
